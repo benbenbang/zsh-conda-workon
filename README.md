@@ -22,6 +22,9 @@ Simple tool for lazy baster :stuck_out_tongue_winking_eye:
    plugins=(workon)
    ```
 
-3. Copy paste the snippet into you `.zshrc`
+3. Copy paste the snippet into you `.zshrc` or do:
+    ```zsh
+    curl -Ls https://raw.githubusercontent.com/benbenbang/zsh-conda-workon/master/zshrc | xargs >> .zshrc
+    ```
 
 4. Start a new terminal session.
