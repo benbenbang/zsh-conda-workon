@@ -2,7 +2,7 @@
 workon(){
     case $1 in
         deactivate )
-            if [[ $CONDA_PYTHON_EXE =~ $HOME/conda/bin/python ]]; then
+            if [[ $(which python) = $CONDA_PREFIX/bin/python ]]; then
                 conda deactivate
             fi
             ;;
